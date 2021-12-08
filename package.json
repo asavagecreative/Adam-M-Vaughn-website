@@ -1,0 +1,22 @@
+{
+  "name": "amv-ebedded-systems",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "git": "^0.1.5",
+    "react": "^17.0.0",
+    "react-bootstrap": "^2.0.3",
+    "react-dom": "^17.0.0",
+    "react-gtm-module": "^2.0.11",
+    "react-node": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.6.4"
+  }
+}
