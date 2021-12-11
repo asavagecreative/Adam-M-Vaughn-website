@@ -1,15 +1,20 @@
 import React from "react";
-import "./Footer.css"
+import "./style/index.css"
 
 const Footer = () => {
 return (
-<div id="Footer">
-    <footer className="adam-foot">
+
+    <footer className="Footer adam-foot">
+    <div className="">
     <p>
-        Made With Love by <a href="https://www.linkedin.com/in/vaughn-embedded-systems/" target="_blank">Adam M. Vaughn</a> | Embedded Systems In Birmingham, AL
+    Adam M. Vaughn Embedded Systems &copy; 2021
     </p>
+    </div>
+    <div>
+       <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">Instagram</a> | <a href="https://www.linkedin.com/in/vaughn-embedded-systems/" target="_blank">LinkedIn</a>
+    </div>
     </footer>
-</div>
+
 )
 };
 

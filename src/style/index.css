@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* App.jsx */
+.App {
+  text-align:center;
+  padding:0 auoto
+}
+
+.App-logo {
+  width:100%;
+  max-width:300px;
+  height: auto;
+  display:inline-block;
+}
+
+code {
+  color: #10b158;
+}
+
+.App-body {
+  background-color: white;
+  color: #19336E;
+  width:100%;
+  padding: 30px auto;
+}
+
+.App-link {
+  background: #19336e;
+  color:white;
+  padding:20px;
+  margin:5px;
+  width:300px;
+  font-size:24px;
+  border-radius:7px;
+}
+.App-link:hover {
+  background:white;
+  border: 2px solid #19336e;
+  color: #19336e;
+  transition:ease-in-out;
+  transition-duration: .25s;
+}
+button {
+  font-size: calc(10px + 2vmin);
+}
+.App-body>p {
+  background-color: white;
+  display: flex;
+  flex-wrap: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #19336E;
+  margin: 0px auto;
+}
+.youtube-video {
+  display:none;
+  width:100%;
+  height:auto;
+  max-width:315px;
+}
+
+#Footer>p {
+  display: flex;
+  flex-wrap: none;
+  position: bottom;
+  font-size: calc(5px + 2vmin);
+  width:100%;
+    height: 10vh;
+    background-color: #19336E;
+    color: #9B2330;
+padding-left: 25%;
+  }
+.amv-logo {
+  display:none;
+}
+.name {
+      font-weight: 800;
+      font-size: 34px;
+}
+.product {
+      margin-top: -17px;
+      font-size: 43px;
+}
+hr {
+      width: 198px;
+      background-color: crimson;
+      height: 4px;
+      margin-top: -36px;
+      border-radius: 50px;
+}
+/* Footer.jsx */
+.adam-foot {
+  color:white;
+  background:#2d2d2d;
+  padding:25px 15px;
+  text-align:center;
+}
+a {
+  text-decoration:none;
+  color:cornflowerblue;
+}

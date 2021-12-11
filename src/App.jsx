@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.png'
-import './App.css'
+import './style/index.css'
 import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
@@ -24,9 +24,13 @@ function App() {
     <hr />
     <p className="brand">Embedded<br />Systems</p>
 </div>
-    <h4>"Automating a better tomorrow"</h4>
+    <h1>Automating A Better Tomorrow</h1>
+    
         <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/J4lrDOR73cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div >
+          <iframe className="youtube-video" src="https://www.youtube.com/embed/J4lrDOR73cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </div>
           <a
             className="App-link"
             href="https://blog.adafruit.com/2020/10/16/building-embedded-linux-systems-embedded-linux-ee-jaydcarlson/"
